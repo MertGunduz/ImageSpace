@@ -446,6 +446,7 @@ namespace ImageSpace
             this.Blues_Button.Text = "Blues";
             this.Blues_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Blues_Button.UseVisualStyleBackColor = false;
+            this.Blues_Button.Click += new System.EventHandler(this.Blues_Button_Click);
             // 
             // panel27
             // 
@@ -472,6 +473,7 @@ namespace ImageSpace
             this.Unhappy_Button.Text = "Unhappy";
             this.Unhappy_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Unhappy_Button.UseVisualStyleBackColor = false;
+            this.Unhappy_Button.Click += new System.EventHandler(this.Unhappy_Button_Click);
             // 
             // panel26
             // 
@@ -498,6 +500,7 @@ namespace ImageSpace
             this.Esoteric_Button.Text = "Esoteric";
             this.Esoteric_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Esoteric_Button.UseVisualStyleBackColor = false;
+            this.Esoteric_Button.Click += new System.EventHandler(this.Esoteric_Button_Click);
             // 
             // panel25
             // 
@@ -524,6 +527,7 @@ namespace ImageSpace
             this.Reborn_Button.Text = "Reborn";
             this.Reborn_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Reborn_Button.UseVisualStyleBackColor = false;
+            this.Reborn_Button.Click += new System.EventHandler(this.Reborn_Button_Click);
             // 
             // panel24
             // 
@@ -550,6 +554,7 @@ namespace ImageSpace
             this.Clockwork_Button.Text = "Clockwork";
             this.Clockwork_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Clockwork_Button.UseVisualStyleBackColor = false;
+            this.Clockwork_Button.Click += new System.EventHandler(this.Clockwork_Button_Click);
             // 
             // panel23
             // 
@@ -576,6 +581,7 @@ namespace ImageSpace
             this.Phantom_Button.Text = "Phantom";
             this.Phantom_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Phantom_Button.UseVisualStyleBackColor = false;
+            this.Phantom_Button.Click += new System.EventHandler(this.Phantom_Button_Click);
             // 
             // panel22
             // 
@@ -602,6 +608,7 @@ namespace ImageSpace
             this.Melodic_Button.Text = "Melodic";
             this.Melodic_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Melodic_Button.UseVisualStyleBackColor = false;
+            this.Melodic_Button.Click += new System.EventHandler(this.Melodic_Button_Click);
             // 
             // panel21
             // 
@@ -628,6 +635,7 @@ namespace ImageSpace
             this.Void_Button.Text = "Void";
             this.Void_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Void_Button.UseVisualStyleBackColor = false;
+            this.Void_Button.Click += new System.EventHandler(this.Void_Button_Click);
             // 
             // panel20
             // 
@@ -654,6 +662,7 @@ namespace ImageSpace
             this.NoFilter_Button.Text = "No-Filter";
             this.NoFilter_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.NoFilter_Button.UseVisualStyleBackColor = false;
+            this.NoFilter_Button.Click += new System.EventHandler(this.NoFilter_Button_Click);
             // 
             // PhotoFiltersBottomMargin_Label
             // 
