@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSpace", "ImageSpace.csproj", "{DAFB9264-21F5-434C-A38B-D340DF3A1E19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAFB9264-21F5-434C-A38B-D340DF3A1E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAFB9264-21F5-434C-A38B-D340DF3A1E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAFB9264-21F5-434C-A38B-D340DF3A1E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAFB9264-21F5-434C-A38B-D340DF3A1E19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87DE43B6-D92F-415E-8ECF-D32E2D73649B}
+	EndGlobalSection
+EndGlobal
