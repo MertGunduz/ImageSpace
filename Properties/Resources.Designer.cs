@@ -63,9 +63,99 @@ namespace ImageSpace.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ImageSpace_Blues {
+            get {
+                object obj = ResourceManager.GetObject("ImageSpace_Blues", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ImageSpace_ClockworkIcon {
+            get {
+                object obj = ResourceManager.GetObject("ImageSpace_ClockworkIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ImageSpace_EsotericIcon {
+            get {
+                object obj = ResourceManager.GetObject("ImageSpace_EsotericIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ImageSpace_LogoIcon {
             get {
                 object obj = ResourceManager.GetObject("ImageSpace_LogoIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ImageSpace_MelodicIcon {
+            get {
+                object obj = ResourceManager.GetObject("ImageSpace_MelodicIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ImageSpace_NoFilterIcon {
+            get {
+                object obj = ResourceManager.GetObject("ImageSpace_NoFilterIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ImageSpace_PhantomIcon {
+            get {
+                object obj = ResourceManager.GetObject("ImageSpace_PhantomIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ImageSpace_RebornIcon {
+            get {
+                object obj = ResourceManager.GetObject("ImageSpace_RebornIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ImageSpace_UnhappyIcon {
+            get {
+                object obj = ResourceManager.GetObject("ImageSpace_UnhappyIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ImageSpace_VoidIcon {
+            get {
+                object obj = ResourceManager.GetObject("ImageSpace_VoidIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

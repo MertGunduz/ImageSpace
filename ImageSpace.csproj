@@ -83,5 +83,32 @@
   <ItemGroup>
     <None Include="Resources\ImageSpace_LogoIcon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageSpace_Blues.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageSpace_ClockworkIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageSpace_EsotericIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageSpace_MelodicIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageSpace_NoFilterIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageSpace_PhantomIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageSpace_RebornIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageSpace_UnhappyIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageSpace_VoidIcon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

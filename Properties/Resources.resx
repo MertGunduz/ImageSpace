@@ -118,7 +118,34 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ImageSpace_Blues" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImageSpace_Blues.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImageSpace_ClockworkIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImageSpace_ClockworkIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImageSpace_EsotericIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImageSpace_EsotericIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ImageSpace_LogoIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ImageSpace_LogoIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImageSpace_MelodicIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImageSpace_MelodicIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImageSpace_NoFilterIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImageSpace_NoFilterIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImageSpace_PhantomIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImageSpace_PhantomIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImageSpace_RebornIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImageSpace_RebornIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImageSpace_UnhappyIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImageSpace_UnhappyIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImageSpace_VoidIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImageSpace_VoidIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
