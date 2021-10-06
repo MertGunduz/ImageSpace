@@ -63,6 +63,16 @@ namespace ImageSpace.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ImageSpace_BIcon {
+            get {
+                object obj = ResourceManager.GetObject("ImageSpace_BIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ImageSpace_Blues {
             get {
                 object obj = ResourceManager.GetObject("ImageSpace_Blues", resourceCulture);
@@ -86,6 +96,16 @@ namespace ImageSpace.Properties {
         internal static System.Drawing.Bitmap ImageSpace_EsotericIcon {
             get {
                 object obj = ResourceManager.GetObject("ImageSpace_EsotericIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ImageSpace_GIcon {
+            get {
+                object obj = ResourceManager.GetObject("ImageSpace_GIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +156,16 @@ namespace ImageSpace.Properties {
         internal static System.Drawing.Bitmap ImageSpace_RebornIcon {
             get {
                 object obj = ResourceManager.GetObject("ImageSpace_RebornIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ImageSpace_RIcon {
+            get {
+                object obj = ResourceManager.GetObject("ImageSpace_RIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

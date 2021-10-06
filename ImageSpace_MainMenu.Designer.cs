@@ -33,7 +33,7 @@ namespace ImageSpace
             this.Main_Panel = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
+            this.LogoPanel = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -50,41 +50,32 @@ namespace ImageSpace
             this.button1 = new System.Windows.Forms.Button();
             this.panel15 = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.PhotoFilters_Label = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.PhotoFiltersRightMargin_Label = new System.Windows.Forms.Panel();
+            this.PhotoFiltersBottomMargin_Label = new System.Windows.Forms.Panel();
             this.panel20 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
             this.panel21 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
             this.panel22 = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
             this.panel23 = new System.Windows.Forms.Panel();
-            this.button8 = new System.Windows.Forms.Button();
             this.panel24 = new System.Windows.Forms.Panel();
-            this.button9 = new System.Windows.Forms.Button();
             this.panel25 = new System.Windows.Forms.Panel();
-            this.button10 = new System.Windows.Forms.Button();
             this.panel26 = new System.Windows.Forms.Panel();
-            this.button11 = new System.Windows.Forms.Button();
             this.panel27 = new System.Windows.Forms.Panel();
             this.panel28 = new System.Windows.Forms.Panel();
-            this.panel29 = new System.Windows.Forms.Panel();
+            this.PhotoFiltersTopMargin_Label = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.panel30 = new System.Windows.Forms.Panel();
             this.panel31 = new System.Windows.Forms.Panel();
             this.panel32 = new System.Windows.Forms.Panel();
             this.panel33 = new System.Windows.Forms.Panel();
             this.panel34 = new System.Windows.Forms.Panel();
-            this.panel39 = new System.Windows.Forms.Panel();
-            this.panel40 = new System.Windows.Forms.Panel();
+            this.LogoPanelRightMargin_Panel = new System.Windows.Forms.Panel();
+            this.LogoPanelLeftMargin_Panel = new System.Windows.Forms.Panel();
             this.panel41 = new System.Windows.Forms.Panel();
             this.panel42 = new System.Windows.Forms.Panel();
-            this.panel43 = new System.Windows.Forms.Panel();
-            this.panel44 = new System.Windows.Forms.Panel();
+            this.LogoPanelTopMargin_Panel = new System.Windows.Forms.Panel();
+            this.LogoPanelBottomMargin_Panel = new System.Windows.Forms.Panel();
             this.panel35 = new System.Windows.Forms.Panel();
             this.panel36 = new System.Windows.Forms.Panel();
             this.button12 = new System.Windows.Forms.Button();
@@ -92,28 +83,37 @@ namespace ImageSpace
             this.button13 = new System.Windows.Forms.Button();
             this.panel38 = new System.Windows.Forms.Panel();
             this.button14 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.Main_PictureBox = new System.Windows.Forms.PictureBox();
+            this.LogoLabel = new System.Windows.Forms.Label();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.Main_Panel.SuspendLayout();
-            this.panel7.SuspendLayout();
+            this.LogoPanel.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Main_PictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // Main_Panel
             // 
             this.Main_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.Main_Panel.Controls.Add(this.panel35);
-            this.Main_Panel.Controls.Add(this.panel44);
+            this.Main_Panel.Controls.Add(this.LogoPanelBottomMargin_Panel);
             this.Main_Panel.Controls.Add(this.panel42);
             this.Main_Panel.Controls.Add(this.panel41);
-            this.Main_Panel.Controls.Add(this.pictureBox1);
-            this.Main_Panel.Controls.Add(this.panel7);
+            this.Main_Panel.Controls.Add(this.Main_PictureBox);
+            this.Main_Panel.Controls.Add(this.LogoPanel);
             this.Main_Panel.Controls.Add(this.panel6);
             this.Main_Panel.Controls.Add(this.panel5);
             this.Main_Panel.Controls.Add(this.panel4);
@@ -148,18 +148,18 @@ namespace ImageSpace
             this.button2.Text = "Open";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // panel7
+            // LogoPanel
             // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.panel7.Controls.Add(this.label4);
-            this.panel7.Controls.Add(this.panel43);
-            this.panel7.Controls.Add(this.panel40);
-            this.panel7.Controls.Add(this.panel39);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(2, 2);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(912, 42);
-            this.panel7.TabIndex = 6;
+            this.LogoPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.LogoPanel.Controls.Add(this.LogoLabel);
+            this.LogoPanel.Controls.Add(this.LogoPanelTopMargin_Panel);
+            this.LogoPanel.Controls.Add(this.LogoPanelLeftMargin_Panel);
+            this.LogoPanel.Controls.Add(this.LogoPanelRightMargin_Panel);
+            this.LogoPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.LogoPanel.Location = new System.Drawing.Point(2, 2);
+            this.LogoPanel.Name = "LogoPanel";
+            this.LogoPanel.Size = new System.Drawing.Size(912, 42);
+            this.LogoPanel.TabIndex = 6;
             // 
             // panel6
             // 
@@ -210,7 +210,7 @@ namespace ImageSpace
             this.panel5.Controls.Add(this.button4);
             this.panel5.Controls.Add(this.panel20);
             this.panel5.Controls.Add(this.button3);
-            this.panel5.Controls.Add(this.panel19);
+            this.panel5.Controls.Add(this.PhotoFiltersBottomMargin_Label);
             this.panel5.Controls.Add(this.panel17);
             this.panel5.Controls.Add(this.panel9);
             this.panel5.Controls.Add(this.panel8);
@@ -276,9 +276,9 @@ namespace ImageSpace
             // 
             // panel8
             // 
-            this.panel8.Controls.Add(this.label2);
-            this.panel8.Controls.Add(this.panel29);
-            this.panel8.Controls.Add(this.panel18);
+            this.panel8.Controls.Add(this.PhotoFilters_Label);
+            this.panel8.Controls.Add(this.PhotoFiltersTopMargin_Label);
+            this.panel8.Controls.Add(this.PhotoFiltersRightMargin_Label);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel8.Location = new System.Drawing.Point(0, 0);
             this.panel8.Name = "panel8";
@@ -351,18 +351,18 @@ namespace ImageSpace
             this.panel16.Size = new System.Drawing.Size(5, 42);
             this.panel16.TabIndex = 13;
             // 
-            // label2
+            // PhotoFilters_Label
             // 
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.label2.Location = new System.Drawing.Point(0, 5);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(140, 37);
-            this.label2.TabIndex = 16;
-            this.label2.Text = "Photo Filters";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.PhotoFilters_Label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.PhotoFilters_Label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PhotoFilters_Label.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.PhotoFilters_Label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.PhotoFilters_Label.Location = new System.Drawing.Point(0, 5);
+            this.PhotoFilters_Label.Name = "PhotoFilters_Label";
+            this.PhotoFilters_Label.Size = new System.Drawing.Size(140, 37);
+            this.PhotoFilters_Label.TabIndex = 16;
+            this.PhotoFilters_Label.Text = "Photo Filters";
+            this.PhotoFilters_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel17
             // 
@@ -372,57 +372,21 @@ namespace ImageSpace
             this.panel17.Size = new System.Drawing.Size(5, 483);
             this.panel17.TabIndex = 11;
             // 
-            // panel18
+            // PhotoFiltersRightMargin_Label
             // 
-            this.panel18.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel18.Location = new System.Drawing.Point(140, 0);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(5, 42);
-            this.panel18.TabIndex = 12;
+            this.PhotoFiltersRightMargin_Label.Dock = System.Windows.Forms.DockStyle.Right;
+            this.PhotoFiltersRightMargin_Label.Location = new System.Drawing.Point(140, 0);
+            this.PhotoFiltersRightMargin_Label.Name = "PhotoFiltersRightMargin_Label";
+            this.PhotoFiltersRightMargin_Label.Size = new System.Drawing.Size(5, 42);
+            this.PhotoFiltersRightMargin_Label.TabIndex = 12;
             // 
-            // panel19
+            // PhotoFiltersBottomMargin_Label
             // 
-            this.panel19.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel19.Location = new System.Drawing.Point(0, 42);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(140, 5);
-            this.panel19.TabIndex = 14;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.button3.Image = global::ImageSpace.Properties.Resources.ImageSpace_NoFilterIcon;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.Location = new System.Drawing.Point(0, 47);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
-            this.button3.Size = new System.Drawing.Size(140, 48);
-            this.button3.TabIndex = 15;
-            this.button3.Text = "No-Filter";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.button4.Image = global::ImageSpace.Properties.Resources.ImageSpace_VoidIcon;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.Location = new System.Drawing.Point(0, 100);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
-            this.button4.Size = new System.Drawing.Size(140, 48);
-            this.button4.TabIndex = 17;
-            this.button4.Text = "Void";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = false;
+            this.PhotoFiltersBottomMargin_Label.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PhotoFiltersBottomMargin_Label.Location = new System.Drawing.Point(0, 42);
+            this.PhotoFiltersBottomMargin_Label.Name = "PhotoFiltersBottomMargin_Label";
+            this.PhotoFiltersBottomMargin_Label.Size = new System.Drawing.Size(140, 5);
+            this.PhotoFiltersBottomMargin_Label.TabIndex = 14;
             // 
             // panel20
             // 
@@ -432,24 +396,6 @@ namespace ImageSpace
             this.panel20.Size = new System.Drawing.Size(140, 5);
             this.panel20.TabIndex = 16;
             // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.button5.Image = global::ImageSpace.Properties.Resources.ImageSpace_MelodicIcon;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button5.Location = new System.Drawing.Point(0, 153);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
-            this.button5.Size = new System.Drawing.Size(140, 48);
-            this.button5.TabIndex = 19;
-            this.button5.Text = "Melodic";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.UseVisualStyleBackColor = false;
-            // 
             // panel21
             // 
             this.panel21.Dock = System.Windows.Forms.DockStyle.Top;
@@ -457,24 +403,6 @@ namespace ImageSpace
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(140, 5);
             this.panel21.TabIndex = 18;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.button6.Image = global::ImageSpace.Properties.Resources.ImageSpace_PhantomIcon;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button6.Location = new System.Drawing.Point(0, 206);
-            this.button6.Name = "button6";
-            this.button6.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
-            this.button6.Size = new System.Drawing.Size(140, 48);
-            this.button6.TabIndex = 21;
-            this.button6.Text = "Phantom";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.UseVisualStyleBackColor = false;
             // 
             // panel22
             // 
@@ -484,24 +412,6 @@ namespace ImageSpace
             this.panel22.Size = new System.Drawing.Size(140, 5);
             this.panel22.TabIndex = 20;
             // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.button7.Image = global::ImageSpace.Properties.Resources.ImageSpace_ClockworkIcon;
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button7.Location = new System.Drawing.Point(0, 259);
-            this.button7.Name = "button7";
-            this.button7.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
-            this.button7.Size = new System.Drawing.Size(140, 48);
-            this.button7.TabIndex = 23;
-            this.button7.Text = "Clockwork";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.UseVisualStyleBackColor = false;
-            // 
             // panel23
             // 
             this.panel23.Dock = System.Windows.Forms.DockStyle.Top;
@@ -509,24 +419,6 @@ namespace ImageSpace
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(140, 5);
             this.panel23.TabIndex = 22;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.button8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.button8.Image = global::ImageSpace.Properties.Resources.ImageSpace_RebornIcon;
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button8.Location = new System.Drawing.Point(0, 312);
-            this.button8.Name = "button8";
-            this.button8.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
-            this.button8.Size = new System.Drawing.Size(140, 48);
-            this.button8.TabIndex = 25;
-            this.button8.Text = "Reborn";
-            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.UseVisualStyleBackColor = false;
             // 
             // panel24
             // 
@@ -536,24 +428,6 @@ namespace ImageSpace
             this.panel24.Size = new System.Drawing.Size(140, 5);
             this.panel24.TabIndex = 24;
             // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.button9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.button9.Image = global::ImageSpace.Properties.Resources.ImageSpace_EsotericIcon;
-            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button9.Location = new System.Drawing.Point(0, 365);
-            this.button9.Name = "button9";
-            this.button9.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
-            this.button9.Size = new System.Drawing.Size(140, 48);
-            this.button9.TabIndex = 27;
-            this.button9.Text = "Esoteric";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.UseVisualStyleBackColor = false;
-            // 
             // panel25
             // 
             this.panel25.Dock = System.Windows.Forms.DockStyle.Top;
@@ -561,25 +435,6 @@ namespace ImageSpace
             this.panel25.Name = "panel25";
             this.panel25.Size = new System.Drawing.Size(140, 5);
             this.panel25.TabIndex = 26;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.button10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.button10.Image = global::ImageSpace.Properties.Resources.ImageSpace_UnhappyIcon;
-            this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button10.Location = new System.Drawing.Point(0, 418);
-            this.button10.Name = "button10";
-            this.button10.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
-            this.button10.Size = new System.Drawing.Size(140, 48);
-            this.button10.TabIndex = 29;
-            this.button10.Text = "Unhappy";
-            this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // panel26
             // 
@@ -589,24 +444,6 @@ namespace ImageSpace
             this.panel26.Size = new System.Drawing.Size(140, 5);
             this.panel26.TabIndex = 28;
             this.panel26.Paint += new System.Windows.Forms.PaintEventHandler(this.panel26_Paint);
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.button11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.button11.Image = global::ImageSpace.Properties.Resources.ImageSpace_Blues;
-            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button11.Location = new System.Drawing.Point(0, 471);
-            this.button11.Name = "button11";
-            this.button11.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
-            this.button11.Size = new System.Drawing.Size(140, 48);
-            this.button11.TabIndex = 31;
-            this.button11.Text = "Blues";
-            this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.UseVisualStyleBackColor = false;
             // 
             // panel27
             // 
@@ -624,13 +461,13 @@ namespace ImageSpace
             this.panel28.Size = new System.Drawing.Size(140, 5);
             this.panel28.TabIndex = 32;
             // 
-            // panel29
+            // PhotoFiltersTopMargin_Label
             // 
-            this.panel29.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel29.Location = new System.Drawing.Point(0, 0);
-            this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(140, 5);
-            this.panel29.TabIndex = 33;
+            this.PhotoFiltersTopMargin_Label.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PhotoFiltersTopMargin_Label.Location = new System.Drawing.Point(0, 0);
+            this.PhotoFiltersTopMargin_Label.Name = "PhotoFiltersTopMargin_Label";
+            this.PhotoFiltersTopMargin_Label.Size = new System.Drawing.Size(140, 5);
+            this.PhotoFiltersTopMargin_Label.TabIndex = 33;
             // 
             // label3
             // 
@@ -685,23 +522,23 @@ namespace ImageSpace
             this.panel34.Size = new System.Drawing.Size(5, 68);
             this.panel34.TabIndex = 20;
             // 
-            // panel39
+            // LogoPanelRightMargin_Panel
             // 
-            this.panel39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.panel39.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel39.Location = new System.Drawing.Point(907, 0);
-            this.panel39.Name = "panel39";
-            this.panel39.Size = new System.Drawing.Size(5, 42);
-            this.panel39.TabIndex = 13;
+            this.LogoPanelRightMargin_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.LogoPanelRightMargin_Panel.Dock = System.Windows.Forms.DockStyle.Right;
+            this.LogoPanelRightMargin_Panel.Location = new System.Drawing.Point(907, 0);
+            this.LogoPanelRightMargin_Panel.Name = "LogoPanelRightMargin_Panel";
+            this.LogoPanelRightMargin_Panel.Size = new System.Drawing.Size(5, 42);
+            this.LogoPanelRightMargin_Panel.TabIndex = 13;
             // 
-            // panel40
+            // LogoPanelLeftMargin_Panel
             // 
-            this.panel40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.panel40.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel40.Location = new System.Drawing.Point(0, 0);
-            this.panel40.Name = "panel40";
-            this.panel40.Size = new System.Drawing.Size(5, 42);
-            this.panel40.TabIndex = 20;
+            this.LogoPanelLeftMargin_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.LogoPanelLeftMargin_Panel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.LogoPanelLeftMargin_Panel.Location = new System.Drawing.Point(0, 0);
+            this.LogoPanelLeftMargin_Panel.Name = "LogoPanelLeftMargin_Panel";
+            this.LogoPanelLeftMargin_Panel.Size = new System.Drawing.Size(5, 42);
+            this.LogoPanelLeftMargin_Panel.TabIndex = 20;
             // 
             // panel41
             // 
@@ -719,22 +556,22 @@ namespace ImageSpace
             this.panel42.Size = new System.Drawing.Size(5, 483);
             this.panel42.TabIndex = 21;
             // 
-            // panel43
+            // LogoPanelTopMargin_Panel
             // 
-            this.panel43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.panel43.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel43.Location = new System.Drawing.Point(5, 0);
-            this.panel43.Name = "panel43";
-            this.panel43.Size = new System.Drawing.Size(902, 5);
-            this.panel43.TabIndex = 34;
+            this.LogoPanelTopMargin_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.LogoPanelTopMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.LogoPanelTopMargin_Panel.Location = new System.Drawing.Point(5, 0);
+            this.LogoPanelTopMargin_Panel.Name = "LogoPanelTopMargin_Panel";
+            this.LogoPanelTopMargin_Panel.Size = new System.Drawing.Size(902, 5);
+            this.LogoPanelTopMargin_Panel.TabIndex = 34;
             // 
-            // panel44
+            // LogoPanelBottomMargin_Panel
             // 
-            this.panel44.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel44.Location = new System.Drawing.Point(7, 44);
-            this.panel44.Name = "panel44";
-            this.panel44.Size = new System.Drawing.Size(902, 5);
-            this.panel44.TabIndex = 22;
+            this.LogoPanelBottomMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.LogoPanelBottomMargin_Panel.Location = new System.Drawing.Point(7, 44);
+            this.LogoPanelBottomMargin_Panel.Name = "LogoPanelBottomMargin_Panel";
+            this.LogoPanelBottomMargin_Panel.Size = new System.Drawing.Size(902, 5);
+            this.LogoPanelBottomMargin_Panel.TabIndex = 22;
             // 
             // panel35
             // 
@@ -760,11 +597,15 @@ namespace ImageSpace
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.button12.Image = global::ImageSpace.Properties.Resources.ImageSpace_RIcon;
+            this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button12.Location = new System.Drawing.Point(5, 47);
             this.button12.Name = "button12";
+            this.button12.Padding = new System.Windows.Forms.Padding(25, 0, 25, 0);
             this.button12.Size = new System.Drawing.Size(297, 63);
             this.button12.TabIndex = 22;
-            this.button12.Text = "ADD RED";
+            this.button12.Text = "Add Red Color";
+            this.button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button12.UseVisualStyleBackColor = false;
             // 
             // panel37
@@ -784,11 +625,15 @@ namespace ImageSpace
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.button13.Image = global::ImageSpace.Properties.Resources.ImageSpace_GIcon;
+            this.button13.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button13.Location = new System.Drawing.Point(307, 47);
             this.button13.Name = "button13";
+            this.button13.Padding = new System.Windows.Forms.Padding(25, 0, 25, 0);
             this.button13.Size = new System.Drawing.Size(297, 63);
             this.button13.TabIndex = 24;
-            this.button13.Text = "ADD GREEN";
+            this.button13.Text = "Add Green Color";
+            this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button13.UseVisualStyleBackColor = false;
             // 
             // panel38
@@ -808,38 +653,205 @@ namespace ImageSpace
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.button14.Image = global::ImageSpace.Properties.Resources.ImageSpace_BIcon;
+            this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button14.Location = new System.Drawing.Point(609, 47);
             this.button14.Name = "button14";
+            this.button14.Padding = new System.Windows.Forms.Padding(25, 0, 25, 0);
             this.button14.Size = new System.Drawing.Size(298, 63);
             this.button14.TabIndex = 26;
-            this.button14.Text = "ADD BLUE";
+            this.button14.Text = "Add Blue Color";
+            this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button14.UseVisualStyleBackColor = false;
             // 
-            // pictureBox1
+            // Main_PictureBox
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 44);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(912, 483);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
+            this.Main_PictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Main_PictureBox.Location = new System.Drawing.Point(2, 44);
+            this.Main_PictureBox.Name = "Main_PictureBox";
+            this.Main_PictureBox.Size = new System.Drawing.Size(912, 483);
+            this.Main_PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Main_PictureBox.TabIndex = 7;
+            this.Main_PictureBox.TabStop = false;
             // 
-            // label4
+            // LogoLabel
             // 
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.label4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.label4.Image = global::ImageSpace.Properties.Resources.ImageSpace_LogoIcon;
-            this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label4.Location = new System.Drawing.Point(5, 5);
-            this.label4.Name = "label4";
-            this.label4.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label4.Size = new System.Drawing.Size(169, 37);
-            this.label4.TabIndex = 24;
-            this.label4.Text = "  ImageSpace";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.LogoLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.LogoLabel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.LogoLabel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LogoLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.LogoLabel.Image = global::ImageSpace.Properties.Resources.ImageSpace_LogoIcon;
+            this.LogoLabel.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.LogoLabel.Location = new System.Drawing.Point(5, 5);
+            this.LogoLabel.Name = "LogoLabel";
+            this.LogoLabel.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.LogoLabel.Size = new System.Drawing.Size(169, 37);
+            this.LogoLabel.TabIndex = 24;
+            this.LogoLabel.Text = "  ImageSpace";
+            this.LogoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.button11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.button11.Image = global::ImageSpace.Properties.Resources.ImageSpace_Blues;
+            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button11.Location = new System.Drawing.Point(0, 471);
+            this.button11.Name = "button11";
+            this.button11.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
+            this.button11.Size = new System.Drawing.Size(140, 48);
+            this.button11.TabIndex = 31;
+            this.button11.Text = "Blues";
+            this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.button10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.button10.Image = global::ImageSpace.Properties.Resources.ImageSpace_UnhappyIcon;
+            this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button10.Location = new System.Drawing.Point(0, 418);
+            this.button10.Name = "button10";
+            this.button10.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
+            this.button10.Size = new System.Drawing.Size(140, 48);
+            this.button10.TabIndex = 29;
+            this.button10.Text = "Unhappy";
+            this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.button9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.button9.Image = global::ImageSpace.Properties.Resources.ImageSpace_EsotericIcon;
+            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button9.Location = new System.Drawing.Point(0, 365);
+            this.button9.Name = "button9";
+            this.button9.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
+            this.button9.Size = new System.Drawing.Size(140, 48);
+            this.button9.TabIndex = 27;
+            this.button9.Text = "Esoteric";
+            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.button8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.button8.Image = global::ImageSpace.Properties.Resources.ImageSpace_RebornIcon;
+            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button8.Location = new System.Drawing.Point(0, 312);
+            this.button8.Name = "button8";
+            this.button8.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
+            this.button8.Size = new System.Drawing.Size(140, 48);
+            this.button8.TabIndex = 25;
+            this.button8.Text = "Reborn";
+            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.button7.Image = global::ImageSpace.Properties.Resources.ImageSpace_ClockworkIcon;
+            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button7.Location = new System.Drawing.Point(0, 259);
+            this.button7.Name = "button7";
+            this.button7.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
+            this.button7.Size = new System.Drawing.Size(140, 48);
+            this.button7.TabIndex = 23;
+            this.button7.Text = "Clockwork";
+            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.button6.Image = global::ImageSpace.Properties.Resources.ImageSpace_PhantomIcon;
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button6.Location = new System.Drawing.Point(0, 206);
+            this.button6.Name = "button6";
+            this.button6.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
+            this.button6.Size = new System.Drawing.Size(140, 48);
+            this.button6.TabIndex = 21;
+            this.button6.Text = "Phantom";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.button5.Image = global::ImageSpace.Properties.Resources.ImageSpace_MelodicIcon;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button5.Location = new System.Drawing.Point(0, 153);
+            this.button5.Name = "button5";
+            this.button5.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
+            this.button5.Size = new System.Drawing.Size(140, 48);
+            this.button5.TabIndex = 19;
+            this.button5.Text = "Melodic";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.button4.Image = global::ImageSpace.Properties.Resources.ImageSpace_VoidIcon;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button4.Location = new System.Drawing.Point(0, 100);
+            this.button4.Name = "button4";
+            this.button4.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
+            this.button4.Size = new System.Drawing.Size(140, 48);
+            this.button4.TabIndex = 17;
+            this.button4.Text = "Void";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.button3.Image = global::ImageSpace.Properties.Resources.ImageSpace_NoFilterIcon;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.Location = new System.Drawing.Point(0, 47);
+            this.button3.Name = "button3";
+            this.button3.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
+            this.button3.Size = new System.Drawing.Size(140, 48);
+            this.button3.TabIndex = 15;
+            this.button3.Text = "No-Filter";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // ImageSpace_MainMenu
             // 
@@ -853,14 +865,14 @@ namespace ImageSpace
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ImageSpace";
             this.Main_Panel.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
+            this.LogoPanel.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel11.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Main_PictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -872,12 +884,12 @@ namespace ImageSpace
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel LogoPanel;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox Main_PictureBox;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Button button2;
@@ -888,7 +900,7 @@ namespace ImageSpace
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel15;
         private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label PhotoFilters_Label;
         private System.Windows.Forms.Panel panel28;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Panel panel27;
@@ -907,10 +919,10 @@ namespace ImageSpace
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Panel panel20;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Panel panel19;
+        private System.Windows.Forms.Panel PhotoFiltersBottomMargin_Label;
         private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.Panel panel29;
+        private System.Windows.Forms.Panel PhotoFiltersRightMargin_Label;
+        private System.Windows.Forms.Panel PhotoFiltersTopMargin_Label;
         private System.Windows.Forms.Panel panel31;
         private System.Windows.Forms.Panel panel30;
         private System.Windows.Forms.Label label3;
@@ -918,13 +930,13 @@ namespace ImageSpace
         private System.Windows.Forms.Panel panel34;
         private System.Windows.Forms.Panel panel33;
         private System.Windows.Forms.Panel panel41;
-        private System.Windows.Forms.Panel panel40;
-        private System.Windows.Forms.Panel panel39;
+        private System.Windows.Forms.Panel LogoPanelLeftMargin_Panel;
+        private System.Windows.Forms.Panel LogoPanelRightMargin_Panel;
         private System.Windows.Forms.Panel panel42;
-        private System.Windows.Forms.Panel panel44;
-        private System.Windows.Forms.Panel panel43;
+        private System.Windows.Forms.Panel LogoPanelBottomMargin_Panel;
+        private System.Windows.Forms.Panel LogoPanelTopMargin_Panel;
         private System.Windows.Forms.Panel panel35;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label LogoLabel;
         private System.Windows.Forms.Panel panel36;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Panel panel38;
