@@ -262,6 +262,7 @@ namespace ImageSpace
             this.AddBlueColor_Button.Text = "Add Blue Color";
             this.AddBlueColor_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.AddBlueColor_Button.UseVisualStyleBackColor = false;
+            this.AddBlueColor_Button.Click += new System.EventHandler(this.AddBlueColor_Button_Click);
             // 
             // panel38
             // 
@@ -290,6 +291,7 @@ namespace ImageSpace
             this.AddGreenColor_Button.Text = "Add Green Color";
             this.AddGreenColor_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.AddGreenColor_Button.UseVisualStyleBackColor = false;
+            this.AddGreenColor_Button.Click += new System.EventHandler(this.AddGreenColor_Button_Click);
             // 
             // panel37
             // 
@@ -318,6 +320,7 @@ namespace ImageSpace
             this.AddRedColor_Button.Text = "Add Red Color";
             this.AddRedColor_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.AddRedColor_Button.UseVisualStyleBackColor = false;
+            this.AddRedColor_Button.Click += new System.EventHandler(this.AddRedColor_Button_Click);
             // 
             // panel36
             // 

@@ -91,6 +91,15 @@ namespace ImageSpace
 
         private void NoFilter_Button_Click(object sender, EventArgs e)
         {
+            // NO-FILTER COLORS
+            R1 = 0;
+            G1 = 0;
+            B1 = 0;
+
+            R2 = 0;
+            G2 = 0;
+            B2 = 0;
+
             if (Main_PictureBox.Image != null)
             {
                 Main_PictureBox.Image = bitmap = new Bitmap(imageFilePath);
@@ -288,6 +297,88 @@ namespace ImageSpace
                 R2 = 181;
                 G2 = 176;
                 B2 = 199;
+
+                A = 65;
+
+                Main_PictureBox.Image = bitmap = new Bitmap(imageFilePath);
+
+                ApplyGradient(R1, G1, B1, R2, G2, B2, A);
+            }
+            else
+            {
+                MessageBox.Show("Please Open An Image!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
+        private void AddRedColor_Button_Click(object sender, EventArgs e)
+        {
+            if (Main_PictureBox.Image != null)
+            {
+                // ADD-RED-COLOR 
+                if (R1 <= 245 && R2 <= 245)
+                {
+                    R1 += 10;
+                    R2 += 10;
+                }
+                else
+                {
+                    MessageBox.Show("Can't Add More Red Color!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                A = 65;
+
+                Main_PictureBox.Image = bitmap = new Bitmap(imageFilePath);
+
+                ApplyGradient(R1, G1, B1, R2, G2, B2, A);
+            }
+            else
+            {
+                MessageBox.Show("Please Open An Image!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void AddGreenColor_Button_Click(object sender, EventArgs e)
+        {
+            if (Main_PictureBox.Image != null)
+            {
+                // ADD-GREEN-COLOR 
+                if (G1 <= 245 && G2 <= 245)
+                {
+                    G1 += 10;
+                    G2 += 10;
+                }
+                else
+                {
+                    MessageBox.Show("Can't Add More Green Color!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                A = 65;
+
+                Main_PictureBox.Image = bitmap = new Bitmap(imageFilePath);
+
+                ApplyGradient(R1, G1, B1, R2, G2, B2, A);
+            }
+            else
+            {
+                MessageBox.Show("Please Open An Image!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void AddBlueColor_Button_Click(object sender, EventArgs e)
+        {
+            if (Main_PictureBox.Image != null)
+            {
+                // ADD-BLUE-COLOR 
+                if (B1 <= 245 && B2 <= 245)
+                {
+                    B1 += 10;
+                    B2 += 10;
+                }
+                else
+                {
+                    MessageBox.Show("Can't Add More Blue Color!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
 
                 A = 65;
 
