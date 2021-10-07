@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Drawing;
-using System.Windows.Forms;
 using System.Drawing.Drawing2D;
+using System.Windows.Forms;
 
 namespace ImageSpace
 {
@@ -23,7 +23,7 @@ namespace ImageSpace
         int R1;
         int G1;
         int B1;
-            
+
         int R2;
         int G2;
         int B2;
