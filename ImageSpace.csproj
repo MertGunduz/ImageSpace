@@ -119,5 +119,11 @@
   <ItemGroup>
     <None Include="Resources\ImageSpace_RIcon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageSpace_ExitIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageSpace_MinimizeIcon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

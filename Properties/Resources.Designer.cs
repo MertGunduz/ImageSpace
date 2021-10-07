@@ -103,6 +103,16 @@ namespace ImageSpace.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ImageSpace_ExitIcon {
+            get {
+                object obj = ResourceManager.GetObject("ImageSpace_ExitIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ImageSpace_GIcon {
             get {
                 object obj = ResourceManager.GetObject("ImageSpace_GIcon", resourceCulture);
@@ -126,6 +136,16 @@ namespace ImageSpace.Properties {
         internal static System.Drawing.Bitmap ImageSpace_MelodicIcon {
             get {
                 object obj = ResourceManager.GetObject("ImageSpace_MelodicIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ImageSpace_MinimizeIcon {
+            get {
+                object obj = ResourceManager.GetObject("ImageSpace_MinimizeIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -384,6 +384,16 @@ namespace ImageSpace
             }
         }
 
+        private void Exit_Button_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Minimize_Button_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
         private void ApplyGradient(int firstRED, int firstGREEN, int firstBLUE, int secondRED, int secondGREEN, int secondBLUE, int ALPHA)
         {
             graphics = Graphics.FromImage(bitmap);
