@@ -1,0 +1,9 @@
+C:\Users\u\source\repos\ImageSpace\bin\Debug\ImageSpace.exe.config
+C:\Users\u\source\repos\ImageSpace\bin\Debug\ImageSpace.exe
+C:\Users\u\source\repos\ImageSpace\bin\Debug\ImageSpace.pdb
+C:\Users\u\source\repos\ImageSpace\obj\Debug\ImageSpace.ImageSpace_MainMenu.resources
+C:\Users\u\source\repos\ImageSpace\obj\Debug\ImageSpace.Properties.Resources.resources
+C:\Users\u\source\repos\ImageSpace\obj\Debug\ImageSpace.csproj.GenerateResource.cache
+C:\Users\u\source\repos\ImageSpace\obj\Debug\ImageSpace.csproj.CoreCompileInputs.cache
+C:\Users\u\source\repos\ImageSpace\obj\Debug\ImageSpace.exe
+C:\Users\u\source\repos\ImageSpace\obj\Debug\ImageSpace.pdb
