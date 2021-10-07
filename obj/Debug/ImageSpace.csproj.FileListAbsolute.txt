@@ -7,3 +7,4 @@ C:\Users\u\source\repos\ImageSpace\obj\Debug\ImageSpace.csproj.GenerateResource.
 C:\Users\u\source\repos\ImageSpace\obj\Debug\ImageSpace.csproj.CoreCompileInputs.cache
 C:\Users\u\source\repos\ImageSpace\obj\Debug\ImageSpace.exe
 C:\Users\u\source\repos\ImageSpace\obj\Debug\ImageSpace.pdb
+C:\Users\u\source\repos\ImageSpace\obj\Debug\ImageSpace.csproj.AssemblyReference.cache
