@@ -31,110 +31,110 @@ namespace ImageSpace
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ImageSpace_MainMenu));
             this.Main_Panel = new System.Windows.Forms.Panel();
-            this.panel35 = new System.Windows.Forms.Panel();
+            this.AdjustCustomRGBTopMargin_Panel = new System.Windows.Forms.Panel();
             this.LogoPanelBottomMargin_Panel = new System.Windows.Forms.Panel();
-            this.panel42 = new System.Windows.Forms.Panel();
-            this.panel41 = new System.Windows.Forms.Panel();
+            this.PictureBoxLeftMargin_Panel = new System.Windows.Forms.Panel();
+            this.PictureBoxRightMargin_Panel = new System.Windows.Forms.Panel();
             this.Main_PictureBox = new System.Windows.Forms.PictureBox();
             this.LogoPanel = new System.Windows.Forms.Panel();
             this.LogoLabel = new System.Windows.Forms.Label();
             this.LogoPanelTopMargin_Panel = new System.Windows.Forms.Panel();
             this.LogoPanelLeftMargin_Panel = new System.Windows.Forms.Panel();
             this.LogoPanelRightMargin_Panel = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.BottomX_Panel = new System.Windows.Forms.Panel();
             this.AddBlueColor_Button = new System.Windows.Forms.Button();
-            this.panel38 = new System.Windows.Forms.Panel();
+            this.GBMargin_Panel = new System.Windows.Forms.Panel();
             this.AddGreenColor_Button = new System.Windows.Forms.Button();
-            this.panel37 = new System.Windows.Forms.Panel();
+            this.RGMargin_Panel = new System.Windows.Forms.Panel();
             this.AddRedColor_Button = new System.Windows.Forms.Button();
-            this.panel36 = new System.Windows.Forms.Panel();
-            this.panel34 = new System.Windows.Forms.Panel();
-            this.panel33 = new System.Windows.Forms.Panel();
-            this.panel32 = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.panel31 = new System.Windows.Forms.Panel();
-            this.panel30 = new System.Windows.Forms.Panel();
+            this.ButtonsBottomMargin_Panel = new System.Windows.Forms.Panel();
+            this.ButtonsLeftMargin_Panel = new System.Windows.Forms.Panel();
+            this.ButtonsRightMargin_Panel = new System.Windows.Forms.Panel();
+            this.AdjustCustomRGBBottomMargin_Panel = new System.Windows.Forms.Panel();
+            this.AdjustCustomRGB_Panel = new System.Windows.Forms.Panel();
+            this.AdjustCustomRGBLeftMargin_Panel = new System.Windows.Forms.Panel();
+            this.AdjustCustomRGBRightMargin_Panel = new System.Windows.Forms.Panel();
             this.AdjustCustomRGB_Label = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel28 = new System.Windows.Forms.Panel();
+            this.LeftButtons_Panel = new System.Windows.Forms.Panel();
+            this.BluesBottomMargin_Panel = new System.Windows.Forms.Panel();
             this.Blues_Button = new System.Windows.Forms.Button();
-            this.panel27 = new System.Windows.Forms.Panel();
+            this.UnhappyBottomMargin_Panel = new System.Windows.Forms.Panel();
             this.Unhappy_Button = new System.Windows.Forms.Button();
-            this.panel26 = new System.Windows.Forms.Panel();
+            this.EsotericBottomMargin_Panel = new System.Windows.Forms.Panel();
             this.Esoteric_Button = new System.Windows.Forms.Button();
-            this.panel25 = new System.Windows.Forms.Panel();
+            this.RebornBottomMargin_Panel = new System.Windows.Forms.Panel();
             this.Reborn_Button = new System.Windows.Forms.Button();
-            this.panel24 = new System.Windows.Forms.Panel();
+            this.ClockworkBottomMargin_Panel = new System.Windows.Forms.Panel();
             this.Clockwork_Button = new System.Windows.Forms.Button();
-            this.panel23 = new System.Windows.Forms.Panel();
-            this.Phantom_Button = new System.Windows.Forms.Button();
-            this.panel22 = new System.Windows.Forms.Panel();
+            this.ClockworkBottomMargin_Panela = new System.Windows.Forms.Panel();
+            this.PhantomBottomMargin_Panel = new System.Windows.Forms.Button();
+            this.MelodicBottomMargin_Panel = new System.Windows.Forms.Panel();
             this.Melodic_Button = new System.Windows.Forms.Button();
-            this.panel21 = new System.Windows.Forms.Panel();
+            this.VoidBottomMargin_Panel = new System.Windows.Forms.Panel();
             this.Void_Button = new System.Windows.Forms.Button();
-            this.panel20 = new System.Windows.Forms.Panel();
+            this.NoFilterBottomMargin_Panel = new System.Windows.Forms.Panel();
             this.NoFilter_Button = new System.Windows.Forms.Button();
             this.PhotoFiltersBottomMargin_Label = new System.Windows.Forms.Panel();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
+            this.LeftButtonPanelRightMargin_Panel = new System.Windows.Forms.Panel();
+            this.ImageMenu_Panel = new System.Windows.Forms.Panel();
             this.Open_Button = new System.Windows.Forms.Button();
-            this.panel14 = new System.Windows.Forms.Panel();
+            this.OpenSaveMargin_Panel = new System.Windows.Forms.Panel();
             this.Save_Button = new System.Windows.Forms.Button();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
+            this.OpenSaveButtonTopMargin_Panel = new System.Windows.Forms.Panel();
+            this.OpenSaveButtonRightMargin_Panel = new System.Windows.Forms.Panel();
+            this.OpenSaveButtonBottomMargin_Panel = new System.Windows.Forms.Panel();
+            this.ImageMenuLabel_Panel = new System.Windows.Forms.Panel();
             this.ImageMenu_Label = new System.Windows.Forms.Label();
-            this.panel16 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
+            this.ImageMenuLeftMargin_Panel = new System.Windows.Forms.Panel();
+            this.PhotoFilters_Panel = new System.Windows.Forms.Panel();
             this.PhotoFilters_Label = new System.Windows.Forms.Label();
             this.PhotoFiltersTopMargin_Label = new System.Windows.Forms.Panel();
             this.PhotoFiltersRightMargin_Label = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.LeftBorder_Panel = new System.Windows.Forms.Panel();
+            this.RightBorder_Panel = new System.Windows.Forms.Panel();
+            this.BottomBorder_Panel = new System.Windows.Forms.Panel();
+            this.TopBorder_Panel = new System.Windows.Forms.Panel();
             this.D_OpenFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.D_SaveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.Main_Panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Main_PictureBox)).BeginInit();
             this.LogoPanel.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel11.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel9.SuspendLayout();
-            this.panel10.SuspendLayout();
-            this.panel8.SuspendLayout();
+            this.BottomX_Panel.SuspendLayout();
+            this.AdjustCustomRGB_Panel.SuspendLayout();
+            this.LeftButtons_Panel.SuspendLayout();
+            this.ImageMenu_Panel.SuspendLayout();
+            this.ImageMenuLabel_Panel.SuspendLayout();
+            this.PhotoFilters_Panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // Main_Panel
             // 
             this.Main_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.Main_Panel.Controls.Add(this.panel35);
+            this.Main_Panel.Controls.Add(this.AdjustCustomRGBTopMargin_Panel);
             this.Main_Panel.Controls.Add(this.LogoPanelBottomMargin_Panel);
-            this.Main_Panel.Controls.Add(this.panel42);
-            this.Main_Panel.Controls.Add(this.panel41);
+            this.Main_Panel.Controls.Add(this.PictureBoxLeftMargin_Panel);
+            this.Main_Panel.Controls.Add(this.PictureBoxRightMargin_Panel);
             this.Main_Panel.Controls.Add(this.Main_PictureBox);
             this.Main_Panel.Controls.Add(this.LogoPanel);
-            this.Main_Panel.Controls.Add(this.panel6);
-            this.Main_Panel.Controls.Add(this.panel5);
-            this.Main_Panel.Controls.Add(this.panel4);
-            this.Main_Panel.Controls.Add(this.panel3);
-            this.Main_Panel.Controls.Add(this.panel2);
-            this.Main_Panel.Controls.Add(this.panel1);
+            this.Main_Panel.Controls.Add(this.BottomX_Panel);
+            this.Main_Panel.Controls.Add(this.LeftButtons_Panel);
+            this.Main_Panel.Controls.Add(this.LeftBorder_Panel);
+            this.Main_Panel.Controls.Add(this.RightBorder_Panel);
+            this.Main_Panel.Controls.Add(this.BottomBorder_Panel);
+            this.Main_Panel.Controls.Add(this.TopBorder_Panel);
             this.Main_Panel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Main_Panel.Location = new System.Drawing.Point(0, 0);
             this.Main_Panel.Name = "Main_Panel";
             this.Main_Panel.Size = new System.Drawing.Size(1061, 644);
             this.Main_Panel.TabIndex = 0;
             // 
-            // panel35
+            // AdjustCustomRGBTopMargin_Panel
             // 
-            this.panel35.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel35.Location = new System.Drawing.Point(7, 522);
-            this.panel35.Name = "panel35";
-            this.panel35.Size = new System.Drawing.Size(902, 5);
-            this.panel35.TabIndex = 23;
+            this.AdjustCustomRGBTopMargin_Panel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.AdjustCustomRGBTopMargin_Panel.Location = new System.Drawing.Point(7, 522);
+            this.AdjustCustomRGBTopMargin_Panel.Name = "AdjustCustomRGBTopMargin_Panel";
+            this.AdjustCustomRGBTopMargin_Panel.Size = new System.Drawing.Size(902, 5);
+            this.AdjustCustomRGBTopMargin_Panel.TabIndex = 23;
             // 
             // LogoPanelBottomMargin_Panel
             // 
@@ -144,21 +144,21 @@ namespace ImageSpace
             this.LogoPanelBottomMargin_Panel.Size = new System.Drawing.Size(902, 5);
             this.LogoPanelBottomMargin_Panel.TabIndex = 22;
             // 
-            // panel42
+            // PictureBoxLeftMargin_Panel
             // 
-            this.panel42.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel42.Location = new System.Drawing.Point(909, 44);
-            this.panel42.Name = "panel42";
-            this.panel42.Size = new System.Drawing.Size(5, 483);
-            this.panel42.TabIndex = 21;
+            this.PictureBoxLeftMargin_Panel.Dock = System.Windows.Forms.DockStyle.Right;
+            this.PictureBoxLeftMargin_Panel.Location = new System.Drawing.Point(909, 44);
+            this.PictureBoxLeftMargin_Panel.Name = "PictureBoxLeftMargin_Panel";
+            this.PictureBoxLeftMargin_Panel.Size = new System.Drawing.Size(5, 483);
+            this.PictureBoxLeftMargin_Panel.TabIndex = 21;
             // 
-            // panel41
+            // PictureBoxRightMargin_Panel
             // 
-            this.panel41.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel41.Location = new System.Drawing.Point(2, 44);
-            this.panel41.Name = "panel41";
-            this.panel41.Size = new System.Drawing.Size(5, 483);
-            this.panel41.TabIndex = 20;
+            this.PictureBoxRightMargin_Panel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.PictureBoxRightMargin_Panel.Location = new System.Drawing.Point(2, 44);
+            this.PictureBoxRightMargin_Panel.Name = "PictureBoxRightMargin_Panel";
+            this.PictureBoxRightMargin_Panel.Size = new System.Drawing.Size(5, 483);
+            this.PictureBoxRightMargin_Panel.TabIndex = 20;
             // 
             // Main_PictureBox
             // 
@@ -226,23 +226,23 @@ namespace ImageSpace
             this.LogoPanelRightMargin_Panel.Size = new System.Drawing.Size(5, 42);
             this.LogoPanelRightMargin_Panel.TabIndex = 13;
             // 
-            // panel6
+            // BottomX_Panel
             // 
-            this.panel6.Controls.Add(this.AddBlueColor_Button);
-            this.panel6.Controls.Add(this.panel38);
-            this.panel6.Controls.Add(this.AddGreenColor_Button);
-            this.panel6.Controls.Add(this.panel37);
-            this.panel6.Controls.Add(this.AddRedColor_Button);
-            this.panel6.Controls.Add(this.panel36);
-            this.panel6.Controls.Add(this.panel34);
-            this.panel6.Controls.Add(this.panel33);
-            this.panel6.Controls.Add(this.panel32);
-            this.panel6.Controls.Add(this.panel11);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel6.Location = new System.Drawing.Point(2, 527);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(912, 115);
-            this.panel6.TabIndex = 5;
+            this.BottomX_Panel.Controls.Add(this.AddBlueColor_Button);
+            this.BottomX_Panel.Controls.Add(this.GBMargin_Panel);
+            this.BottomX_Panel.Controls.Add(this.AddGreenColor_Button);
+            this.BottomX_Panel.Controls.Add(this.RGMargin_Panel);
+            this.BottomX_Panel.Controls.Add(this.AddRedColor_Button);
+            this.BottomX_Panel.Controls.Add(this.ButtonsBottomMargin_Panel);
+            this.BottomX_Panel.Controls.Add(this.ButtonsLeftMargin_Panel);
+            this.BottomX_Panel.Controls.Add(this.ButtonsRightMargin_Panel);
+            this.BottomX_Panel.Controls.Add(this.AdjustCustomRGBBottomMargin_Panel);
+            this.BottomX_Panel.Controls.Add(this.AdjustCustomRGB_Panel);
+            this.BottomX_Panel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.BottomX_Panel.Location = new System.Drawing.Point(2, 527);
+            this.BottomX_Panel.Name = "BottomX_Panel";
+            this.BottomX_Panel.Size = new System.Drawing.Size(912, 115);
+            this.BottomX_Panel.TabIndex = 5;
             // 
             // AddBlueColor_Button
             // 
@@ -264,14 +264,14 @@ namespace ImageSpace
             this.AddBlueColor_Button.UseVisualStyleBackColor = false;
             this.AddBlueColor_Button.Click += new System.EventHandler(this.AddBlueColor_Button_Click);
             // 
-            // panel38
+            // GBMargin_Panel
             // 
-            this.panel38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.panel38.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel38.Location = new System.Drawing.Point(604, 47);
-            this.panel38.Name = "panel38";
-            this.panel38.Size = new System.Drawing.Size(5, 63);
-            this.panel38.TabIndex = 25;
+            this.GBMargin_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.GBMargin_Panel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.GBMargin_Panel.Location = new System.Drawing.Point(604, 47);
+            this.GBMargin_Panel.Name = "GBMargin_Panel";
+            this.GBMargin_Panel.Size = new System.Drawing.Size(5, 63);
+            this.GBMargin_Panel.TabIndex = 25;
             // 
             // AddGreenColor_Button
             // 
@@ -293,14 +293,14 @@ namespace ImageSpace
             this.AddGreenColor_Button.UseVisualStyleBackColor = false;
             this.AddGreenColor_Button.Click += new System.EventHandler(this.AddGreenColor_Button_Click);
             // 
-            // panel37
+            // RGMargin_Panel
             // 
-            this.panel37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.panel37.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel37.Location = new System.Drawing.Point(302, 47);
-            this.panel37.Name = "panel37";
-            this.panel37.Size = new System.Drawing.Size(5, 63);
-            this.panel37.TabIndex = 23;
+            this.RGMargin_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.RGMargin_Panel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.RGMargin_Panel.Location = new System.Drawing.Point(302, 47);
+            this.RGMargin_Panel.Name = "RGMargin_Panel";
+            this.RGMargin_Panel.Size = new System.Drawing.Size(5, 63);
+            this.RGMargin_Panel.TabIndex = 23;
             // 
             // AddRedColor_Button
             // 
@@ -322,64 +322,64 @@ namespace ImageSpace
             this.AddRedColor_Button.UseVisualStyleBackColor = false;
             this.AddRedColor_Button.Click += new System.EventHandler(this.AddRedColor_Button_Click);
             // 
-            // panel36
+            // ButtonsBottomMargin_Panel
             // 
-            this.panel36.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel36.Location = new System.Drawing.Point(5, 110);
-            this.panel36.Name = "panel36";
-            this.panel36.Size = new System.Drawing.Size(902, 5);
-            this.panel36.TabIndex = 21;
+            this.ButtonsBottomMargin_Panel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.ButtonsBottomMargin_Panel.Location = new System.Drawing.Point(5, 110);
+            this.ButtonsBottomMargin_Panel.Name = "ButtonsBottomMargin_Panel";
+            this.ButtonsBottomMargin_Panel.Size = new System.Drawing.Size(902, 5);
+            this.ButtonsBottomMargin_Panel.TabIndex = 21;
             // 
-            // panel34
+            // ButtonsLeftMargin_Panel
             // 
-            this.panel34.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel34.Location = new System.Drawing.Point(0, 47);
-            this.panel34.Name = "panel34";
-            this.panel34.Size = new System.Drawing.Size(5, 68);
-            this.panel34.TabIndex = 20;
+            this.ButtonsLeftMargin_Panel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ButtonsLeftMargin_Panel.Location = new System.Drawing.Point(0, 47);
+            this.ButtonsLeftMargin_Panel.Name = "ButtonsLeftMargin_Panel";
+            this.ButtonsLeftMargin_Panel.Size = new System.Drawing.Size(5, 68);
+            this.ButtonsLeftMargin_Panel.TabIndex = 20;
             // 
-            // panel33
+            // ButtonsRightMargin_Panel
             // 
-            this.panel33.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel33.Location = new System.Drawing.Point(907, 47);
-            this.panel33.Name = "panel33";
-            this.panel33.Size = new System.Drawing.Size(5, 68);
-            this.panel33.TabIndex = 15;
+            this.ButtonsRightMargin_Panel.Dock = System.Windows.Forms.DockStyle.Right;
+            this.ButtonsRightMargin_Panel.Location = new System.Drawing.Point(907, 47);
+            this.ButtonsRightMargin_Panel.Name = "ButtonsRightMargin_Panel";
+            this.ButtonsRightMargin_Panel.Size = new System.Drawing.Size(5, 68);
+            this.ButtonsRightMargin_Panel.TabIndex = 15;
             // 
-            // panel32
+            // AdjustCustomRGBBottomMargin_Panel
             // 
-            this.panel32.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel32.Location = new System.Drawing.Point(0, 42);
-            this.panel32.Name = "panel32";
-            this.panel32.Size = new System.Drawing.Size(912, 5);
-            this.panel32.TabIndex = 14;
+            this.AdjustCustomRGBBottomMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.AdjustCustomRGBBottomMargin_Panel.Location = new System.Drawing.Point(0, 42);
+            this.AdjustCustomRGBBottomMargin_Panel.Name = "AdjustCustomRGBBottomMargin_Panel";
+            this.AdjustCustomRGBBottomMargin_Panel.Size = new System.Drawing.Size(912, 5);
+            this.AdjustCustomRGBBottomMargin_Panel.TabIndex = 14;
             // 
-            // panel11
+            // AdjustCustomRGB_Panel
             // 
-            this.panel11.Controls.Add(this.panel31);
-            this.panel11.Controls.Add(this.panel30);
-            this.panel11.Controls.Add(this.AdjustCustomRGB_Label);
-            this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel11.Location = new System.Drawing.Point(0, 0);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(912, 42);
-            this.panel11.TabIndex = 8;
+            this.AdjustCustomRGB_Panel.Controls.Add(this.AdjustCustomRGBLeftMargin_Panel);
+            this.AdjustCustomRGB_Panel.Controls.Add(this.AdjustCustomRGBRightMargin_Panel);
+            this.AdjustCustomRGB_Panel.Controls.Add(this.AdjustCustomRGB_Label);
+            this.AdjustCustomRGB_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.AdjustCustomRGB_Panel.Location = new System.Drawing.Point(0, 0);
+            this.AdjustCustomRGB_Panel.Name = "AdjustCustomRGB_Panel";
+            this.AdjustCustomRGB_Panel.Size = new System.Drawing.Size(912, 42);
+            this.AdjustCustomRGB_Panel.TabIndex = 8;
             // 
-            // panel31
+            // AdjustCustomRGBLeftMargin_Panel
             // 
-            this.panel31.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel31.Location = new System.Drawing.Point(0, 0);
-            this.panel31.Name = "panel31";
-            this.panel31.Size = new System.Drawing.Size(5, 42);
-            this.panel31.TabIndex = 19;
+            this.AdjustCustomRGBLeftMargin_Panel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.AdjustCustomRGBLeftMargin_Panel.Location = new System.Drawing.Point(0, 0);
+            this.AdjustCustomRGBLeftMargin_Panel.Name = "AdjustCustomRGBLeftMargin_Panel";
+            this.AdjustCustomRGBLeftMargin_Panel.Size = new System.Drawing.Size(5, 42);
+            this.AdjustCustomRGBLeftMargin_Panel.TabIndex = 19;
             // 
-            // panel30
+            // AdjustCustomRGBRightMargin_Panel
             // 
-            this.panel30.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel30.Location = new System.Drawing.Point(907, 0);
-            this.panel30.Name = "panel30";
-            this.panel30.Size = new System.Drawing.Size(5, 42);
-            this.panel30.TabIndex = 18;
+            this.AdjustCustomRGBRightMargin_Panel.Dock = System.Windows.Forms.DockStyle.Right;
+            this.AdjustCustomRGBRightMargin_Panel.Location = new System.Drawing.Point(907, 0);
+            this.AdjustCustomRGBRightMargin_Panel.Name = "AdjustCustomRGBRightMargin_Panel";
+            this.AdjustCustomRGBRightMargin_Panel.Size = new System.Drawing.Size(5, 42);
+            this.AdjustCustomRGBRightMargin_Panel.TabIndex = 18;
             // 
             // AdjustCustomRGB_Label
             // 
@@ -394,43 +394,43 @@ namespace ImageSpace
             this.AdjustCustomRGB_Label.Text = "Adjust Custom RGB";
             this.AdjustCustomRGB_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // panel5
+            // LeftButtons_Panel
             // 
-            this.panel5.Controls.Add(this.panel28);
-            this.panel5.Controls.Add(this.Blues_Button);
-            this.panel5.Controls.Add(this.panel27);
-            this.panel5.Controls.Add(this.Unhappy_Button);
-            this.panel5.Controls.Add(this.panel26);
-            this.panel5.Controls.Add(this.Esoteric_Button);
-            this.panel5.Controls.Add(this.panel25);
-            this.panel5.Controls.Add(this.Reborn_Button);
-            this.panel5.Controls.Add(this.panel24);
-            this.panel5.Controls.Add(this.Clockwork_Button);
-            this.panel5.Controls.Add(this.panel23);
-            this.panel5.Controls.Add(this.Phantom_Button);
-            this.panel5.Controls.Add(this.panel22);
-            this.panel5.Controls.Add(this.Melodic_Button);
-            this.panel5.Controls.Add(this.panel21);
-            this.panel5.Controls.Add(this.Void_Button);
-            this.panel5.Controls.Add(this.panel20);
-            this.panel5.Controls.Add(this.NoFilter_Button);
-            this.panel5.Controls.Add(this.PhotoFiltersBottomMargin_Label);
-            this.panel5.Controls.Add(this.panel17);
-            this.panel5.Controls.Add(this.panel9);
-            this.panel5.Controls.Add(this.panel8);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel5.Location = new System.Drawing.Point(914, 2);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(145, 640);
-            this.panel5.TabIndex = 4;
+            this.LeftButtons_Panel.Controls.Add(this.BluesBottomMargin_Panel);
+            this.LeftButtons_Panel.Controls.Add(this.Blues_Button);
+            this.LeftButtons_Panel.Controls.Add(this.UnhappyBottomMargin_Panel);
+            this.LeftButtons_Panel.Controls.Add(this.Unhappy_Button);
+            this.LeftButtons_Panel.Controls.Add(this.EsotericBottomMargin_Panel);
+            this.LeftButtons_Panel.Controls.Add(this.Esoteric_Button);
+            this.LeftButtons_Panel.Controls.Add(this.RebornBottomMargin_Panel);
+            this.LeftButtons_Panel.Controls.Add(this.Reborn_Button);
+            this.LeftButtons_Panel.Controls.Add(this.ClockworkBottomMargin_Panel);
+            this.LeftButtons_Panel.Controls.Add(this.Clockwork_Button);
+            this.LeftButtons_Panel.Controls.Add(this.ClockworkBottomMargin_Panela);
+            this.LeftButtons_Panel.Controls.Add(this.PhantomBottomMargin_Panel);
+            this.LeftButtons_Panel.Controls.Add(this.MelodicBottomMargin_Panel);
+            this.LeftButtons_Panel.Controls.Add(this.Melodic_Button);
+            this.LeftButtons_Panel.Controls.Add(this.VoidBottomMargin_Panel);
+            this.LeftButtons_Panel.Controls.Add(this.Void_Button);
+            this.LeftButtons_Panel.Controls.Add(this.NoFilterBottomMargin_Panel);
+            this.LeftButtons_Panel.Controls.Add(this.NoFilter_Button);
+            this.LeftButtons_Panel.Controls.Add(this.PhotoFiltersBottomMargin_Label);
+            this.LeftButtons_Panel.Controls.Add(this.LeftButtonPanelRightMargin_Panel);
+            this.LeftButtons_Panel.Controls.Add(this.ImageMenu_Panel);
+            this.LeftButtons_Panel.Controls.Add(this.PhotoFilters_Panel);
+            this.LeftButtons_Panel.Dock = System.Windows.Forms.DockStyle.Right;
+            this.LeftButtons_Panel.Location = new System.Drawing.Point(914, 2);
+            this.LeftButtons_Panel.Name = "LeftButtons_Panel";
+            this.LeftButtons_Panel.Size = new System.Drawing.Size(145, 640);
+            this.LeftButtons_Panel.TabIndex = 4;
             // 
-            // panel28
+            // BluesBottomMargin_Panel
             // 
-            this.panel28.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel28.Location = new System.Drawing.Point(0, 519);
-            this.panel28.Name = "panel28";
-            this.panel28.Size = new System.Drawing.Size(140, 5);
-            this.panel28.TabIndex = 32;
+            this.BluesBottomMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BluesBottomMargin_Panel.Location = new System.Drawing.Point(0, 519);
+            this.BluesBottomMargin_Panel.Name = "BluesBottomMargin_Panel";
+            this.BluesBottomMargin_Panel.Size = new System.Drawing.Size(140, 5);
+            this.BluesBottomMargin_Panel.TabIndex = 32;
             // 
             // Blues_Button
             // 
@@ -451,13 +451,13 @@ namespace ImageSpace
             this.Blues_Button.UseVisualStyleBackColor = false;
             this.Blues_Button.Click += new System.EventHandler(this.Blues_Button_Click);
             // 
-            // panel27
+            // UnhappyBottomMargin_Panel
             // 
-            this.panel27.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel27.Location = new System.Drawing.Point(0, 466);
-            this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(140, 5);
-            this.panel27.TabIndex = 30;
+            this.UnhappyBottomMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.UnhappyBottomMargin_Panel.Location = new System.Drawing.Point(0, 466);
+            this.UnhappyBottomMargin_Panel.Name = "UnhappyBottomMargin_Panel";
+            this.UnhappyBottomMargin_Panel.Size = new System.Drawing.Size(140, 5);
+            this.UnhappyBottomMargin_Panel.TabIndex = 30;
             // 
             // Unhappy_Button
             // 
@@ -478,13 +478,13 @@ namespace ImageSpace
             this.Unhappy_Button.UseVisualStyleBackColor = false;
             this.Unhappy_Button.Click += new System.EventHandler(this.Unhappy_Button_Click);
             // 
-            // panel26
+            // EsotericBottomMargin_Panel
             // 
-            this.panel26.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel26.Location = new System.Drawing.Point(0, 413);
-            this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(140, 5);
-            this.panel26.TabIndex = 28;
+            this.EsotericBottomMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.EsotericBottomMargin_Panel.Location = new System.Drawing.Point(0, 413);
+            this.EsotericBottomMargin_Panel.Name = "EsotericBottomMargin_Panel";
+            this.EsotericBottomMargin_Panel.Size = new System.Drawing.Size(140, 5);
+            this.EsotericBottomMargin_Panel.TabIndex = 28;
             // 
             // Esoteric_Button
             // 
@@ -505,13 +505,13 @@ namespace ImageSpace
             this.Esoteric_Button.UseVisualStyleBackColor = false;
             this.Esoteric_Button.Click += new System.EventHandler(this.Esoteric_Button_Click);
             // 
-            // panel25
+            // RebornBottomMargin_Panel
             // 
-            this.panel25.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel25.Location = new System.Drawing.Point(0, 360);
-            this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(140, 5);
-            this.panel25.TabIndex = 26;
+            this.RebornBottomMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.RebornBottomMargin_Panel.Location = new System.Drawing.Point(0, 360);
+            this.RebornBottomMargin_Panel.Name = "RebornBottomMargin_Panel";
+            this.RebornBottomMargin_Panel.Size = new System.Drawing.Size(140, 5);
+            this.RebornBottomMargin_Panel.TabIndex = 26;
             // 
             // Reborn_Button
             // 
@@ -532,13 +532,13 @@ namespace ImageSpace
             this.Reborn_Button.UseVisualStyleBackColor = false;
             this.Reborn_Button.Click += new System.EventHandler(this.Reborn_Button_Click);
             // 
-            // panel24
+            // ClockworkBottomMargin_Panel
             // 
-            this.panel24.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel24.Location = new System.Drawing.Point(0, 307);
-            this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(140, 5);
-            this.panel24.TabIndex = 24;
+            this.ClockworkBottomMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ClockworkBottomMargin_Panel.Location = new System.Drawing.Point(0, 307);
+            this.ClockworkBottomMargin_Panel.Name = "ClockworkBottomMargin_Panel";
+            this.ClockworkBottomMargin_Panel.Size = new System.Drawing.Size(140, 5);
+            this.ClockworkBottomMargin_Panel.TabIndex = 24;
             // 
             // Clockwork_Button
             // 
@@ -559,40 +559,40 @@ namespace ImageSpace
             this.Clockwork_Button.UseVisualStyleBackColor = false;
             this.Clockwork_Button.Click += new System.EventHandler(this.Clockwork_Button_Click);
             // 
-            // panel23
+            // ClockworkBottomMargin_Panela
             // 
-            this.panel23.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel23.Location = new System.Drawing.Point(0, 254);
-            this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(140, 5);
-            this.panel23.TabIndex = 22;
+            this.ClockworkBottomMargin_Panela.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ClockworkBottomMargin_Panela.Location = new System.Drawing.Point(0, 254);
+            this.ClockworkBottomMargin_Panela.Name = "ClockworkBottomMargin_Panela";
+            this.ClockworkBottomMargin_Panela.Size = new System.Drawing.Size(140, 5);
+            this.ClockworkBottomMargin_Panela.TabIndex = 22;
             // 
-            // Phantom_Button
+            // PhantomBottomMargin_Panel
             // 
-            this.Phantom_Button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.Phantom_Button.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Phantom_Button.FlatAppearance.BorderSize = 0;
-            this.Phantom_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Phantom_Button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.Phantom_Button.Image = global::ImageSpace.Properties.Resources.ImageSpace_PhantomIcon;
-            this.Phantom_Button.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Phantom_Button.Location = new System.Drawing.Point(0, 206);
-            this.Phantom_Button.Name = "Phantom_Button";
-            this.Phantom_Button.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
-            this.Phantom_Button.Size = new System.Drawing.Size(140, 48);
-            this.Phantom_Button.TabIndex = 21;
-            this.Phantom_Button.Text = "Phantom";
-            this.Phantom_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Phantom_Button.UseVisualStyleBackColor = false;
-            this.Phantom_Button.Click += new System.EventHandler(this.Phantom_Button_Click);
+            this.PhantomBottomMargin_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.PhantomBottomMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PhantomBottomMargin_Panel.FlatAppearance.BorderSize = 0;
+            this.PhantomBottomMargin_Panel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PhantomBottomMargin_Panel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.PhantomBottomMargin_Panel.Image = global::ImageSpace.Properties.Resources.ImageSpace_PhantomIcon;
+            this.PhantomBottomMargin_Panel.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.PhantomBottomMargin_Panel.Location = new System.Drawing.Point(0, 206);
+            this.PhantomBottomMargin_Panel.Name = "PhantomBottomMargin_Panel";
+            this.PhantomBottomMargin_Panel.Padding = new System.Windows.Forms.Padding(7, 0, 8, 0);
+            this.PhantomBottomMargin_Panel.Size = new System.Drawing.Size(140, 48);
+            this.PhantomBottomMargin_Panel.TabIndex = 21;
+            this.PhantomBottomMargin_Panel.Text = "Phantom";
+            this.PhantomBottomMargin_Panel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.PhantomBottomMargin_Panel.UseVisualStyleBackColor = false;
+            this.PhantomBottomMargin_Panel.Click += new System.EventHandler(this.Phantom_Button_Click);
             // 
-            // panel22
+            // MelodicBottomMargin_Panel
             // 
-            this.panel22.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel22.Location = new System.Drawing.Point(0, 201);
-            this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(140, 5);
-            this.panel22.TabIndex = 20;
+            this.MelodicBottomMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.MelodicBottomMargin_Panel.Location = new System.Drawing.Point(0, 201);
+            this.MelodicBottomMargin_Panel.Name = "MelodicBottomMargin_Panel";
+            this.MelodicBottomMargin_Panel.Size = new System.Drawing.Size(140, 5);
+            this.MelodicBottomMargin_Panel.TabIndex = 20;
             // 
             // Melodic_Button
             // 
@@ -613,13 +613,13 @@ namespace ImageSpace
             this.Melodic_Button.UseVisualStyleBackColor = false;
             this.Melodic_Button.Click += new System.EventHandler(this.Melodic_Button_Click);
             // 
-            // panel21
+            // VoidBottomMargin_Panel
             // 
-            this.panel21.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel21.Location = new System.Drawing.Point(0, 148);
-            this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(140, 5);
-            this.panel21.TabIndex = 18;
+            this.VoidBottomMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.VoidBottomMargin_Panel.Location = new System.Drawing.Point(0, 148);
+            this.VoidBottomMargin_Panel.Name = "VoidBottomMargin_Panel";
+            this.VoidBottomMargin_Panel.Size = new System.Drawing.Size(140, 5);
+            this.VoidBottomMargin_Panel.TabIndex = 18;
             // 
             // Void_Button
             // 
@@ -640,13 +640,13 @@ namespace ImageSpace
             this.Void_Button.UseVisualStyleBackColor = false;
             this.Void_Button.Click += new System.EventHandler(this.Void_Button_Click);
             // 
-            // panel20
+            // NoFilterBottomMargin_Panel
             // 
-            this.panel20.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel20.Location = new System.Drawing.Point(0, 95);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(140, 5);
-            this.panel20.TabIndex = 16;
+            this.NoFilterBottomMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.NoFilterBottomMargin_Panel.Location = new System.Drawing.Point(0, 95);
+            this.NoFilterBottomMargin_Panel.Name = "NoFilterBottomMargin_Panel";
+            this.NoFilterBottomMargin_Panel.Size = new System.Drawing.Size(140, 5);
+            this.NoFilterBottomMargin_Panel.TabIndex = 16;
             // 
             // NoFilter_Button
             // 
@@ -675,28 +675,28 @@ namespace ImageSpace
             this.PhotoFiltersBottomMargin_Label.Size = new System.Drawing.Size(140, 5);
             this.PhotoFiltersBottomMargin_Label.TabIndex = 14;
             // 
-            // panel17
+            // LeftButtonPanelRightMargin_Panel
             // 
-            this.panel17.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel17.Location = new System.Drawing.Point(140, 42);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(5, 483);
-            this.panel17.TabIndex = 11;
+            this.LeftButtonPanelRightMargin_Panel.Dock = System.Windows.Forms.DockStyle.Right;
+            this.LeftButtonPanelRightMargin_Panel.Location = new System.Drawing.Point(140, 42);
+            this.LeftButtonPanelRightMargin_Panel.Name = "LeftButtonPanelRightMargin_Panel";
+            this.LeftButtonPanelRightMargin_Panel.Size = new System.Drawing.Size(5, 483);
+            this.LeftButtonPanelRightMargin_Panel.TabIndex = 11;
             // 
-            // panel9
+            // ImageMenu_Panel
             // 
-            this.panel9.Controls.Add(this.Open_Button);
-            this.panel9.Controls.Add(this.panel14);
-            this.panel9.Controls.Add(this.Save_Button);
-            this.panel9.Controls.Add(this.panel15);
-            this.panel9.Controls.Add(this.panel13);
-            this.panel9.Controls.Add(this.panel12);
-            this.panel9.Controls.Add(this.panel10);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel9.Location = new System.Drawing.Point(0, 525);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(145, 115);
-            this.panel9.TabIndex = 8;
+            this.ImageMenu_Panel.Controls.Add(this.Open_Button);
+            this.ImageMenu_Panel.Controls.Add(this.OpenSaveMargin_Panel);
+            this.ImageMenu_Panel.Controls.Add(this.Save_Button);
+            this.ImageMenu_Panel.Controls.Add(this.OpenSaveButtonTopMargin_Panel);
+            this.ImageMenu_Panel.Controls.Add(this.OpenSaveButtonRightMargin_Panel);
+            this.ImageMenu_Panel.Controls.Add(this.OpenSaveButtonBottomMargin_Panel);
+            this.ImageMenu_Panel.Controls.Add(this.ImageMenuLabel_Panel);
+            this.ImageMenu_Panel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.ImageMenu_Panel.Location = new System.Drawing.Point(0, 525);
+            this.ImageMenu_Panel.Name = "ImageMenu_Panel";
+            this.ImageMenu_Panel.Size = new System.Drawing.Size(145, 115);
+            this.ImageMenu_Panel.TabIndex = 8;
             // 
             // Open_Button
             // 
@@ -713,13 +713,13 @@ namespace ImageSpace
             this.Open_Button.UseVisualStyleBackColor = false;
             this.Open_Button.Click += new System.EventHandler(this.Open_Button_Click);
             // 
-            // panel14
+            // OpenSaveMargin_Panel
             // 
-            this.panel14.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel14.Location = new System.Drawing.Point(68, 47);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(5, 63);
-            this.panel14.TabIndex = 12;
+            this.OpenSaveMargin_Panel.Dock = System.Windows.Forms.DockStyle.Right;
+            this.OpenSaveMargin_Panel.Location = new System.Drawing.Point(68, 47);
+            this.OpenSaveMargin_Panel.Name = "OpenSaveMargin_Panel";
+            this.OpenSaveMargin_Panel.Size = new System.Drawing.Size(5, 63);
+            this.OpenSaveMargin_Panel.TabIndex = 12;
             // 
             // Save_Button
             // 
@@ -736,39 +736,39 @@ namespace ImageSpace
             this.Save_Button.UseVisualStyleBackColor = false;
             this.Save_Button.Click += new System.EventHandler(this.Save_Button_Click);
             // 
-            // panel15
+            // OpenSaveButtonTopMargin_Panel
             // 
-            this.panel15.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel15.Location = new System.Drawing.Point(0, 42);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(140, 5);
-            this.panel15.TabIndex = 13;
+            this.OpenSaveButtonTopMargin_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.OpenSaveButtonTopMargin_Panel.Location = new System.Drawing.Point(0, 42);
+            this.OpenSaveButtonTopMargin_Panel.Name = "OpenSaveButtonTopMargin_Panel";
+            this.OpenSaveButtonTopMargin_Panel.Size = new System.Drawing.Size(140, 5);
+            this.OpenSaveButtonTopMargin_Panel.TabIndex = 13;
             // 
-            // panel13
+            // OpenSaveButtonRightMargin_Panel
             // 
-            this.panel13.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel13.Location = new System.Drawing.Point(140, 42);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(5, 68);
-            this.panel13.TabIndex = 10;
+            this.OpenSaveButtonRightMargin_Panel.Dock = System.Windows.Forms.DockStyle.Right;
+            this.OpenSaveButtonRightMargin_Panel.Location = new System.Drawing.Point(140, 42);
+            this.OpenSaveButtonRightMargin_Panel.Name = "OpenSaveButtonRightMargin_Panel";
+            this.OpenSaveButtonRightMargin_Panel.Size = new System.Drawing.Size(5, 68);
+            this.OpenSaveButtonRightMargin_Panel.TabIndex = 10;
             // 
-            // panel12
+            // OpenSaveButtonBottomMargin_Panel
             // 
-            this.panel12.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel12.Location = new System.Drawing.Point(0, 110);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(145, 5);
-            this.panel12.TabIndex = 9;
+            this.OpenSaveButtonBottomMargin_Panel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.OpenSaveButtonBottomMargin_Panel.Location = new System.Drawing.Point(0, 110);
+            this.OpenSaveButtonBottomMargin_Panel.Name = "OpenSaveButtonBottomMargin_Panel";
+            this.OpenSaveButtonBottomMargin_Panel.Size = new System.Drawing.Size(145, 5);
+            this.OpenSaveButtonBottomMargin_Panel.TabIndex = 9;
             // 
-            // panel10
+            // ImageMenuLabel_Panel
             // 
-            this.panel10.Controls.Add(this.ImageMenu_Label);
-            this.panel10.Controls.Add(this.panel16);
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel10.Location = new System.Drawing.Point(0, 0);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(145, 42);
-            this.panel10.TabIndex = 8;
+            this.ImageMenuLabel_Panel.Controls.Add(this.ImageMenu_Label);
+            this.ImageMenuLabel_Panel.Controls.Add(this.ImageMenuLeftMargin_Panel);
+            this.ImageMenuLabel_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ImageMenuLabel_Panel.Location = new System.Drawing.Point(0, 0);
+            this.ImageMenuLabel_Panel.Name = "ImageMenuLabel_Panel";
+            this.ImageMenuLabel_Panel.Size = new System.Drawing.Size(145, 42);
+            this.ImageMenuLabel_Panel.TabIndex = 8;
             // 
             // ImageMenu_Label
             // 
@@ -783,24 +783,24 @@ namespace ImageSpace
             this.ImageMenu_Label.Text = "Image Menu";
             this.ImageMenu_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // panel16
+            // ImageMenuLeftMargin_Panel
             // 
-            this.panel16.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel16.Location = new System.Drawing.Point(140, 0);
-            this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(5, 42);
-            this.panel16.TabIndex = 13;
+            this.ImageMenuLeftMargin_Panel.Dock = System.Windows.Forms.DockStyle.Right;
+            this.ImageMenuLeftMargin_Panel.Location = new System.Drawing.Point(140, 0);
+            this.ImageMenuLeftMargin_Panel.Name = "ImageMenuLeftMargin_Panel";
+            this.ImageMenuLeftMargin_Panel.Size = new System.Drawing.Size(5, 42);
+            this.ImageMenuLeftMargin_Panel.TabIndex = 13;
             // 
-            // panel8
+            // PhotoFilters_Panel
             // 
-            this.panel8.Controls.Add(this.PhotoFilters_Label);
-            this.panel8.Controls.Add(this.PhotoFiltersTopMargin_Label);
-            this.panel8.Controls.Add(this.PhotoFiltersRightMargin_Label);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel8.Location = new System.Drawing.Point(0, 0);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(145, 42);
-            this.panel8.TabIndex = 7;
+            this.PhotoFilters_Panel.Controls.Add(this.PhotoFilters_Label);
+            this.PhotoFilters_Panel.Controls.Add(this.PhotoFiltersTopMargin_Label);
+            this.PhotoFilters_Panel.Controls.Add(this.PhotoFiltersRightMargin_Label);
+            this.PhotoFilters_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PhotoFilters_Panel.Location = new System.Drawing.Point(0, 0);
+            this.PhotoFilters_Panel.Name = "PhotoFilters_Panel";
+            this.PhotoFilters_Panel.Size = new System.Drawing.Size(145, 42);
+            this.PhotoFilters_Panel.TabIndex = 7;
             // 
             // PhotoFilters_Label
             // 
@@ -831,41 +831,41 @@ namespace ImageSpace
             this.PhotoFiltersRightMargin_Label.Size = new System.Drawing.Size(5, 42);
             this.PhotoFiltersRightMargin_Label.TabIndex = 12;
             // 
-            // panel4
+            // LeftBorder_Panel
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel4.Location = new System.Drawing.Point(0, 2);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(2, 640);
-            this.panel4.TabIndex = 3;
+            this.LeftBorder_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.LeftBorder_Panel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.LeftBorder_Panel.Location = new System.Drawing.Point(0, 2);
+            this.LeftBorder_Panel.Name = "LeftBorder_Panel";
+            this.LeftBorder_Panel.Size = new System.Drawing.Size(2, 640);
+            this.LeftBorder_Panel.TabIndex = 3;
             // 
-            // panel3
+            // RightBorder_Panel
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(1059, 2);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(2, 640);
-            this.panel3.TabIndex = 2;
+            this.RightBorder_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.RightBorder_Panel.Dock = System.Windows.Forms.DockStyle.Right;
+            this.RightBorder_Panel.Location = new System.Drawing.Point(1059, 2);
+            this.RightBorder_Panel.Name = "RightBorder_Panel";
+            this.RightBorder_Panel.Size = new System.Drawing.Size(2, 640);
+            this.RightBorder_Panel.TabIndex = 2;
             // 
-            // panel2
+            // BottomBorder_Panel
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 642);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1061, 2);
-            this.panel2.TabIndex = 1;
+            this.BottomBorder_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.BottomBorder_Panel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.BottomBorder_Panel.Location = new System.Drawing.Point(0, 642);
+            this.BottomBorder_Panel.Name = "BottomBorder_Panel";
+            this.BottomBorder_Panel.Size = new System.Drawing.Size(1061, 2);
+            this.BottomBorder_Panel.TabIndex = 1;
             // 
-            // panel1
+            // TopBorder_Panel
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1061, 2);
-            this.panel1.TabIndex = 0;
+            this.TopBorder_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(150)))), ((int)(((byte)(239)))));
+            this.TopBorder_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.TopBorder_Panel.Location = new System.Drawing.Point(0, 0);
+            this.TopBorder_Panel.Name = "TopBorder_Panel";
+            this.TopBorder_Panel.Size = new System.Drawing.Size(1061, 2);
+            this.TopBorder_Panel.TabIndex = 0;
             // 
             // ImageSpace_MainMenu
             // 
@@ -882,12 +882,12 @@ namespace ImageSpace
             this.Main_Panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Main_PictureBox)).EndInit();
             this.LogoPanel.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.panel11.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
-            this.panel10.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
+            this.BottomX_Panel.ResumeLayout(false);
+            this.AdjustCustomRGB_Panel.ResumeLayout(false);
+            this.LeftButtons_Panel.ResumeLayout(false);
+            this.ImageMenu_Panel.ResumeLayout(false);
+            this.ImageMenuLabel_Panel.ResumeLayout(false);
+            this.PhotoFilters_Panel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -895,68 +895,68 @@ namespace ImageSpace
         #endregion
 
         private System.Windows.Forms.Panel Main_Panel;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel LeftBorder_Panel;
+        private System.Windows.Forms.Panel RightBorder_Panel;
+        private System.Windows.Forms.Panel BottomBorder_Panel;
+        private System.Windows.Forms.Panel TopBorder_Panel;
         private System.Windows.Forms.Panel LogoPanel;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Panel BottomX_Panel;
+        private System.Windows.Forms.Panel LeftButtons_Panel;
+        private System.Windows.Forms.Panel ImageMenu_Panel;
+        private System.Windows.Forms.Panel PhotoFilters_Panel;
         private System.Windows.Forms.PictureBox Main_PictureBox;
-        private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel AdjustCustomRGB_Panel;
+        private System.Windows.Forms.Panel ImageMenuLabel_Panel;
         private System.Windows.Forms.Button Open_Button;
-        private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Panel OpenSaveMargin_Panel;
+        private System.Windows.Forms.Panel OpenSaveButtonRightMargin_Panel;
+        private System.Windows.Forms.Panel OpenSaveButtonBottomMargin_Panel;
         private System.Windows.Forms.Label ImageMenu_Label;
         private System.Windows.Forms.Button Save_Button;
-        private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.Panel panel16;
+        private System.Windows.Forms.Panel OpenSaveButtonTopMargin_Panel;
+        private System.Windows.Forms.Panel ImageMenuLeftMargin_Panel;
         private System.Windows.Forms.Label PhotoFilters_Label;
-        private System.Windows.Forms.Panel panel28;
+        private System.Windows.Forms.Panel BluesBottomMargin_Panel;
         private System.Windows.Forms.Button Blues_Button;
-        private System.Windows.Forms.Panel panel27;
+        private System.Windows.Forms.Panel UnhappyBottomMargin_Panel;
         private System.Windows.Forms.Button Unhappy_Button;
-        private System.Windows.Forms.Panel panel26;
+        private System.Windows.Forms.Panel EsotericBottomMargin_Panel;
         private System.Windows.Forms.Button Esoteric_Button;
-        private System.Windows.Forms.Panel panel25;
+        private System.Windows.Forms.Panel RebornBottomMargin_Panel;
         private System.Windows.Forms.Button Reborn_Button;
-        private System.Windows.Forms.Panel panel24;
+        private System.Windows.Forms.Panel ClockworkBottomMargin_Panel;
         private System.Windows.Forms.Button Clockwork_Button;
-        private System.Windows.Forms.Panel panel23;
-        private System.Windows.Forms.Button Phantom_Button;
-        private System.Windows.Forms.Panel panel22;
+        private System.Windows.Forms.Panel ClockworkBottomMargin_Panela;
+        private System.Windows.Forms.Button PhantomBottomMargin_Panel;
+        private System.Windows.Forms.Panel MelodicBottomMargin_Panel;
         private System.Windows.Forms.Button Melodic_Button;
-        private System.Windows.Forms.Panel panel21;
+        private System.Windows.Forms.Panel VoidBottomMargin_Panel;
         private System.Windows.Forms.Button Void_Button;
-        private System.Windows.Forms.Panel panel20;
+        private System.Windows.Forms.Panel NoFilterBottomMargin_Panel;
         private System.Windows.Forms.Button NoFilter_Button;
         private System.Windows.Forms.Panel PhotoFiltersBottomMargin_Label;
-        private System.Windows.Forms.Panel panel17;
+        private System.Windows.Forms.Panel LeftButtonPanelRightMargin_Panel;
         private System.Windows.Forms.Panel PhotoFiltersRightMargin_Label;
         private System.Windows.Forms.Panel PhotoFiltersTopMargin_Label;
-        private System.Windows.Forms.Panel panel31;
-        private System.Windows.Forms.Panel panel30;
+        private System.Windows.Forms.Panel AdjustCustomRGBLeftMargin_Panel;
+        private System.Windows.Forms.Panel AdjustCustomRGBRightMargin_Panel;
         private System.Windows.Forms.Label AdjustCustomRGB_Label;
-        private System.Windows.Forms.Panel panel32;
-        private System.Windows.Forms.Panel panel34;
-        private System.Windows.Forms.Panel panel33;
-        private System.Windows.Forms.Panel panel41;
+        private System.Windows.Forms.Panel AdjustCustomRGBBottomMargin_Panel;
+        private System.Windows.Forms.Panel ButtonsLeftMargin_Panel;
+        private System.Windows.Forms.Panel ButtonsRightMargin_Panel;
+        private System.Windows.Forms.Panel PictureBoxRightMargin_Panel;
         private System.Windows.Forms.Panel LogoPanelLeftMargin_Panel;
         private System.Windows.Forms.Panel LogoPanelRightMargin_Panel;
-        private System.Windows.Forms.Panel panel42;
+        private System.Windows.Forms.Panel PictureBoxLeftMargin_Panel;
         private System.Windows.Forms.Panel LogoPanelBottomMargin_Panel;
         private System.Windows.Forms.Panel LogoPanelTopMargin_Panel;
-        private System.Windows.Forms.Panel panel35;
+        private System.Windows.Forms.Panel AdjustCustomRGBTopMargin_Panel;
         private System.Windows.Forms.Label LogoLabel;
-        private System.Windows.Forms.Panel panel36;
+        private System.Windows.Forms.Panel ButtonsBottomMargin_Panel;
         private System.Windows.Forms.Button AddBlueColor_Button;
-        private System.Windows.Forms.Panel panel38;
+        private System.Windows.Forms.Panel GBMargin_Panel;
         private System.Windows.Forms.Button AddGreenColor_Button;
-        private System.Windows.Forms.Panel panel37;
+        private System.Windows.Forms.Panel RGMargin_Panel;
         private System.Windows.Forms.Button AddRedColor_Button;
         private System.Windows.Forms.OpenFileDialog D_OpenFileDialog;
         private System.Windows.Forms.SaveFileDialog D_SaveFileDialog;
