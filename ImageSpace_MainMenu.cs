@@ -43,7 +43,7 @@ namespace ImageSpace
         {
             try
             {
-                D_OpenFileDialog.Filter = "PNG Files | *.png | JPG Files | *.jpg";
+                D_OpenFileDialog.Filter = "Image Files (*.BMP; *.JPG; *.PNG)|*.BMP; *.JPG; *.PNG";
 
                 if (D_OpenFileDialog.ShowDialog() == DialogResult.OK)
                 {
@@ -64,7 +64,7 @@ namespace ImageSpace
         {
             try
             {
-                D_SaveFileDialog.Filter = "PNG Files |*.png | JPG Files | *.jpg";
+                D_SaveFileDialog.Filter = "Image Files (*.BMP; *.JPG; *.PNG)|*.BMP; *.JPG; *.PNG";
 
                 if (D_SaveFileDialog.ShowDialog() == DialogResult.OK)
                 {
